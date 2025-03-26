@@ -1,5 +1,5 @@
 #  Smart Board to Slide Deck Converter
-Project Overview
+# Project Overview
 
 An AI-powered solution to convert handwritten content from smart boards (images/videos) into structured slide decks. This system addresses the challenges of extracting handwritten text under varying conditions and transforms it into well-formatted digital documents(PDF).
 
@@ -84,7 +84,6 @@ Mathematical equation recognition
 ![Colab](https://img.shields.io/badge/Colab-F9AB00?logo=google-colab&logoColor=white)  
 - � Notebook testing
 - 🆓 Free GPU access
-- 
 
 ## ⚙️ Workflow
 1. 🎬 **Video Input**  
@@ -107,10 +106,6 @@ Mathematical equation recognition
 4.Archana A L
 
 5.Pavitra Biradar
-git clone https://github.com/Ananya2312/smartslideconverter && \
-cd smartslideconverter && \
-(cd backend && pip install -r requirements.txt) && \
-(cd frontend && npm install)
 
 ## 🚀 Future Enhancements
 
@@ -131,3 +126,15 @@ cd smartslideconverter && \
   `Starting with ES/FR/ZH`
 - 📚 **Subject Templates**  
   `Math|Chemistry|Legal formats`
+  ## ⚡ Quick Install
+
+```bash
+# Clone & setup
+git clone https://github.com/Ananya2312/smartslideconverter
+cd smartslideconverter
+
+# Backend (Python 3.8+)
+cd backend && pip install -r requirements.txt
+
+# Frontend (Node 16+)
+cd ../frontend && npm install
