@@ -16,16 +16,12 @@ Motion blur in videos
 Structure preservation
 
 Mathematical equation recognition
-# Key Features
-Video Frame Extraction: Captures key moments from lecture/meeting videos
-
-Advanced OCR: Combines EasyOCR and TrOCR for handwritten text recognition
-
-AI Enhancement: Improves accuracy and formatting of extracted content
-
-Multi-element Processing: Handles text, diagrams, and mathematical equations
-
-Structured Output: Generates searchable PDF documents
+## ✨ Key Features
+- 🎞️ **Video Frame Extraction**: Capture key video moments
+- 🔍 **Advanced OCR**: EasyOCR + TrOCR for handwriting
+- � **AI Enhancement**: Boost accuracy & formatting
+- 🗂️ **Multi-processing**: Text + diagrams + equations
+- 📄 **Structured PDFs**: Searchable document output
 ## Resources
 - **Presentation Slides**: [Neural_Ninjas.pptx](https://docs.google.com/presentation/d/1IcPPLynenFyypGG41a6aduPObdpG1rCB/edit?usp=sharing&ouid=107016641315213345291&rtpof=true&sd=true
 ) - Our complete project presentation
@@ -89,42 +85,18 @@ Structured Output: Generates searchable PDF documents
 - � Notebook testing
 - 🆓 Free GPU access
 - 
-# Implementation Workflow
-Frame Extraction: Extract and preprocess frames from input videos
 
-Text Recognition: Detect and extract handwritten content using OCR
+## ⚙️ Workflow
+1. 🎬 **Video Input**  
+   ↓  
+2. 🖼️ Frame Extraction (OpenCV)  
+   ↓  
+3. 🔤 Text Recognition (EasyOCR+TrOCR)  
+   ↓  
+4. ✨ Enhancement (BART)  
+   ↓  
+5. 📑 PDF Generation (ReportLab)
 
-Content Enhancement:
-
-Correct OCR errors
-
-Improve formatting
-
-Preserve bullet points and structure
-
-Convert equations to LaTeX format
-
-Document Generation: Create structured PDF output
-# Installation
-1.Clone the repository:git clone https://github.com/Ananya2312/smartslideconverter
-
-2.Set up backend:  cd backend
-                   
-                   pip install -r requirements.txt
-
-3.Set up frontend:   cd ../frontend
-                     
-                     npm install
-# Future Enhancements
-AI-driven auto-correction for handwriting clarity
-
-Real-time processing capabilities
-
-Voice-to-text integration
-
-Cloud storage collaboration (Google Drive, OneDrive)
-
-Multi-language and multi-subject support
 # Contributors
 1.Uday N
 
@@ -135,3 +107,27 @@ Multi-language and multi-subject support
 4.Archana A L
 
 5.Pavitra Biradar
+git clone https://github.com/Ananya2312/smartslideconverter && \
+cd smartslideconverter && \
+(cd backend && pip install -r requirements.txt) && \
+(cd frontend && npm install)
+
+## 🚀 Future Enhancements
+
+### AI Features
+- ✨ **Smart Handwriting Correction**  
+  `Using Transformer models`
+- 🎤 **Voice Notes Integration**  
+  `Whisper API + Custom NLP`
+
+### Infrastructure
+- ⚡ **Real-Time Engine**  
+  ![WebSockets](https://img.shields.io/badge/-WebSockets-yellow)
+- ☁️ **Cloud Sync**  
+  ![GDrive](https://img.shields.io/badge/-Google_Drive-blue) ![OneDrive](https://img.shields.io/badge/-OneDrive-blue)
+
+### Localization
+- 🗺️ **10 Languages**  
+  `Starting with ES/FR/ZH`
+- 📚 **Subject Templates**  
+  `Math|Chemistry|Legal formats`
